@@ -1,0 +1,91 @@
+.about {
+    min-height: 1350px;
+    background: #000;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 47%;
+        &_second {
+            background: url(../../image/itemBg.png) no-repeat;
+            margin-left: 50px;
+            width: 880px;
+            height: 750px;
+        }
+        &_third {
+            background: url(../../image/itemBg2.png) no-repeat;
+            width: 880px;
+            height: 600px;
+            margin-top: 93px;
+        }
+        &_title {
+            font-family: Playfair Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 48px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            padding-top: 93px;
+            &_second {
+                padding-top: 400px;
+            }
+        }
+        &_divider {
+            width: 120px;
+            height: 1px;
+            background: #fff;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        &_descr {
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            text-align: center;
+            width: 471px;
+            margin: 0 auto;
+            color: #FFFFFF;
+            margin-top: 40px;
+        }
+        &_blocks {
+            display: flex;
+            margin-top: 50px;
+            justify-content: space-between;
+            padding-left: 80px;
+            &_block {
+                width: 260px;
+                height: 325px;
+                background: #191B1C;
+                &_descr {
+                    margin-top: 100px;
+                    font-family: Playfair Display;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+                &_price {
+                    font-family: Playfair Display;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #D0D0D0;
+                    margin-top: 10px;
+                }
+                img {
+                    margin-top: 30px;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

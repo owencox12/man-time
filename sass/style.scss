@@ -1,0 +1,31 @@
+* {
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+    &_second {
+        max-width: 1215px;
+        margin: 0 auto;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body.lock {
+    overflow: hidden
+}
+
+@import 'blocks/promo';
+@import 'blocks/about';
+@import 'blocks/button';
+@import 'blocks/shop';
+@import 'blocks/brands';
+@import 'blocks/information';
+@import 'blocks/footer';
+@import 'blocks/media';

@@ -1,0 +1,29 @@
+.footer {
+    height: 35px;
+    padding-top: 17px;
+    background: #000;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_text {
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            color: #D0D0D0;
+        }
+        &_figma {
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: right;
+            text-decoration-line: underline;
+            color: #D0D0D0;
+        }
+    }
+}

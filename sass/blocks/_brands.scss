@@ -1,0 +1,9 @@
+.brands {
+    min-height: 262px;
+    padding: 60px 0 0px 0;
+    background: #0F0F0F;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}

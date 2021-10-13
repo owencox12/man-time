@@ -1,0 +1,163 @@
+.promo {
+    height: 100vh;
+    padding: 0 0 0 0;
+    &__header {
+        min-height: 26px;
+        background: #000000;
+        padding: 14px 0;
+        &_active {
+            height: 26px;
+        }
+        &_inner {
+            min-height: 50px;
+            background: rgba(0, 0, 0, .6);
+            top: -100%;
+            transition: all .3s;
+            &_active {
+                position: fixed;
+                width: 100%;
+                min-height: 50px;
+                background: #000;
+                top: 0;
+                left: 0;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-bottom: 20px;
+                transition: all .3s;
+                
+            }
+            &_wrapper {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 29px;
+                &_menu {
+                    &_list {
+                        display: flex;
+                        margin-top: 10px;
+                        &_li {
+                            margin: 0 20px;
+                            a {
+                                font-family: PT Sans;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 18px;
+                                text-transform: uppercase;
+                                color: #969696;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &_item {
+            display: flex;
+            &_phone {
+                margin: 0 10px;
+                a {
+                    font-family: PT Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: #969696;
+                    text-decoration: none;
+                    img {
+                        margin-right: 12px;
+                    }
+                }
+            }
+            &_job {
+                font-family: PT Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                color: #969696;
+                margin: 0 10px;
+            }
+            &_graphic {
+                font-family: PT Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                color: #969696;
+                margin: 0 10px;
+            }
+            &_login {
+                a {
+                    font-family: PT Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 16px;
+                    text-align: right;
+                    color: #969696;
+                    text-decoration: none;
+                    img {
+                        margin-right: 12px;
+                    }
+                }
+            }
+        }
+    }
+    &__info {
+        background: url(../../image/bgcolor.png) center center / cover no-repeat;
+        height: 810px;
+        padding-top: 150px;
+        &_descr {
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            width: 730px;
+            margin: 0 auto;
+            margin-top: 80px;
+        }
+        &_block {
+            width: 320px;
+            height: 320px;
+            border: 3px solid #fff;
+            margin: 0 auto;
+            &_text {
+                text-align: center;
+                margin-top: 93px;
+                font-family: Post No Bills Jaffna;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 64px;
+                text-align: center;
+
+                color: #FFFFFF;
+                &_span {
+                    font-family: PT Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 22px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin-top: 0;
+                    color: #FFFFFF;
+                    border-top: 1px solid #fff;
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
+    &__header_burger {
+        display: none;
+        &_list {
+            display: none;
+        }
+    }
+}

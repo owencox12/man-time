@@ -1,0 +1,79 @@
+.information {
+    min-height: 300px;
+    background: url(../../image/bgInformation.png) center center / cover no-repeat;
+    padding-top: 80px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 25%;
+        &_title {
+            font-family: Playfair Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 32px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &_mail {
+            margin-top: 37px;
+            display: flex;
+            input {
+                width: 210px;
+                height: 42px;
+                background: rgba(255, 255, 255, 0.4);
+                padding-left: 10px;
+                &::-webkit-input-placeholder {
+                    color:    #fff;
+                 }
+            }
+        }
+        &_descr {
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            color: #FFFFFF;
+            margin-top: 40px;
+            width: 350px;
+            &_second {
+                width: 350px;
+            }
+        }
+        &_blocks {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            &_block {
+                width: auto;
+                height: auto;
+                background: #0F0F0F;
+                margin: 0 13px;
+                padding: 10px;
+                font-family: PT Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 150%;
+                color: #D0D0D0;
+                cursor: pointer;
+                &_active {
+                    background: red;
+                }
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:nth-child(4) {
+                    margin-top: 15px;
+                    margin-left: 0;
+                }
+                &:nth-child(5) {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
